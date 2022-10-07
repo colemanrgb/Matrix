@@ -33,3 +33,12 @@ CharDbl:
   This controls whether to use double height characters or not. Set to 0 for single height characters, or any non-zero value for double height.
   For modes with 115 text rows or more suggest using 1 otherwise 0.
 
+
+# History
+
+1.00 : Initial release
+
+1.01 : Minor fix to !Run file for ensuring ZapRedraw is loaded
+
+1.02 : Minor fix to require ZapRedraw 0.50 although 0.49 also seems okay
+
