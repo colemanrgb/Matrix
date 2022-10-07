@@ -1,0 +1,9 @@
+| !Run file for screen saver application
+
+RMEnsure ZapRedraw 0.50 If "<Zap$Redraw>" <> "" Then RMLoad <Zap$Redraw>
+RMEnsure ZapRedraw 0.50 Error The Matrix screen saver requires ZapRedraw 0.50 or later
+
+Set BlankTask$Dir <Obey$Dir>
+Set ScrSaver$Running Yes
+WimpSlot -min 120K -max 240K
+Run <BlankTask$Dir>.!RunImage %*0

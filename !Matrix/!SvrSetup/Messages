@@ -1,0 +1,14 @@
+# Messages file for Screen saver setup
+
+_TaskName:Screen saver settings
+_Purpose:Setting of screen saver options
+_Author:Richard Coleman
+_Version:1.00 (09 Jun 2021)
+
+# Standard miscellaneous messages
+reportt:Message from Configure
+
+# Error messages
+NotEnoughMemory:There is not enough memory to do that operation.
+ChoicesFileNotOpen:Couldn't open choices file.
+

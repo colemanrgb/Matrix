@@ -1,0 +1,5 @@
+| !Run file for screen saver settings
+
+Set SvrSetup$Dir <Obey$Dir>
+WimpSlot -min 32k -max 32k
+Run <SvrSetup$Dir>.!RunImage %*0
